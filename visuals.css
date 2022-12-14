@@ -1,0 +1,115 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	background-color: 	#2f4f4f;
+}
+
+
+
+.container{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	float: none;
+}
+
+
+.board{
+	height: 300px;
+	width: 300px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.cell{
+	border: 5px solid white;
+	border-radius: 8px;
+	margin: 3px;
+	font-size: 70px;
+	text-align: center;
+	color: black;
+	background-color: #daa520;
+	user-select: none;
+}
+
+
+.pop{
+	background-color: red;
+}
+
+#reset{
+	padding: 10px;
+	background-color:#CC6600;
+	color: pink;
+	border-width: 5px;
+	border-color: blue;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-radius: 15px;
+	letter-spacing: 2px;
+	width:100px ;
+     margin:0 auto ;
+     margin-top: 450px ;
+     display:block ;
+     font-family: cursive;
+}
+
+#reset:hover{
+	cursor: pointer;
+}
+
+#reset:active{
+	opacity: 0.6;
+}
+
+
+.titleCard{
+	background-color: white;
+	width: 30%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	line-height: 40px;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: bold;
+	/*margin-left: 100px !important;*/
+}
+
+
+.player1{
+	float: left;
+	color: white;
+	margin-left: 150px;
+	margin-top:250px ;
+	width: 20%;
+	height: 40px;
+	padding: 5px;
+	font-size: 200%;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+
+.player2{
+	color: white;
+	float: right;
+	margin-right: 150px;
+	width: 20%;
+	height: 40px;
+	padding: 5px;
+	font-size: 200%;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-top: 250px;
+}
